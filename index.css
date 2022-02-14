@@ -247,3 +247,60 @@ body{
     }
 
   }
+
+
+  @media only screen and (width:1024px) {
+    .motor-detail{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagesuzukilogo{
+        width: 250px;
+        cursor: pointer;
+    }
+    
+    .container{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 900px;
+        animation: transctionIn 0.75s;
+    }
+
+
+    .imagesuzukidetail{
+        width: 900px;
+    }
+
+
+    #headtext{
+        color: #FFFF;
+        font-size: 50px;
+    }
+    #head-detail{
+        color: yellow;
+        font-size: 30px;
+        text-align: right;
+        
+    }
+
+    .imagemotordetail{
+        cursor: pointer;
+        width: 500px;
+        padding: 10px;
+    }
+
+    .motor-detail{
+        margin-bottom: 10px;
+    }
+
+    .image-detail-motor{
+        width: 900px;
+    }
+
+    .image-detail-motor img{
+        width: 900px;
+    }
+
+  }
